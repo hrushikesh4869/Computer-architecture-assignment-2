@@ -18,7 +18,7 @@ struct eventcount{
 };
 
 struct eventcount e[4];
-//FILE *fp = fopen("anyfile","a");;
+//FILE *fp = fopen("anyfile","a");
 unsigned long long pagefaults,l1dataread,tlb,lldataread;
 clock_t start;
 
